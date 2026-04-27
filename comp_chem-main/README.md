@@ -9,12 +9,6 @@ comp_chem
 * **04_3D_Conformance**: 3D coordinate generation and minimization.
 * **data**: Sample `.smi` or `.sdf` files.
 
-## 🛠️ Requirements
-To run these scripts, you will need the RDKit library installed:
-```bash
-pip install rdkit
-```bash
-
 
 🧠 COMPLETE CLASSIFICATION OF RDKit (~200) DESCRIPTORS
 1. 🧪 Physicochemical Descriptors
