@@ -14,6 +14,8 @@ To run these scripts, you will need the RDKit library installed:
 ```bash
 pip install rdkit
 
+
+
 🧠 COMPLETE CLASSIFICATION OF RDKit (~200) DESCRIPTORS
 1. 🧪 Physicochemical Descriptors
 
