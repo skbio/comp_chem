@@ -13,7 +13,7 @@ comp_chem
 To run these scripts, you will need the RDKit library installed:
 ```bash
 pip install rdkit
-
+```bash
 
 
 🧠 COMPLETE CLASSIFICATION OF RDKit (~200) DESCRIPTORS
