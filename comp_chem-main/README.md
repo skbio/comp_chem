@@ -1,17 +1,22 @@
 # comp_chem
 Python scripts for RDKit-based molecular analysis and cheminformatics
 
-comp_chem
-
 * **01_Basics**: SMILES conversion, drawing, and sanitization.
 * **02_Descriptors**: Lipinski rules, LogP, and chemical fingerprints.
 * **03_Virtual_Screen**: Similarity searching and library filtering.
 * **04_3D_Conformance**: 3D coordinate generation and minimization.
 * **data**: Sample `.smi` or `.sdf` files.
 
+* **Install rdkit using conda**
 
-🧠 COMPLETE CLASSIFICATION OF RDKit (~200) DESCRIPTORS
-1. 🧪 Physicochemical Descriptors
+````
+conda install -c conda-forge rdkit
+
+````
+
+**COMPLETE CLASSIFICATION OF RDKit (~200) DESCRIPTORS**
+
+* **1.  Physicochemical Descriptors**
 
 These describe global drug-like properties.
 
@@ -27,7 +32,8 @@ Meaning:
 Solubility
 Permeability
 Lipophilicity
-2. ⚛️ Constitutional (1D) Descriptors
+
+* **2. Constitutional (1D) Descriptors**
 
 Simple atom/bond counts.
 
@@ -45,7 +51,8 @@ Meaning:
 Size
 Flexibility
 Basic composition
-3. 🔬 Topological (2D graph-based) Descriptors
+
+* **3. Topological (2D graph-based) Descriptors**
 
 Based on molecular graph connectivity.
 
@@ -63,7 +70,8 @@ Meaning:
 Shape complexity
 Branching
 Molecular connectivity
-4. 🧬 Ring & Aromaticity Descriptors
+
+* **4. Ring & Aromaticity Descriptors**
 
 Describe cyclic structure.
 
@@ -81,7 +89,7 @@ Meaning:
 Rigidity
 Aromatic stabilization
 Structural constraints
-5. 🔗 Fragment / Functional Group Descriptors
+* **5. Fragment / Functional Group Descriptors**
 
 Count specific structural motifs.
 
@@ -100,7 +108,7 @@ Meaning:
 Reactivity
 Binding potential
 Toxicity signals
-6. ⚡ Electronic / Charge-related Descriptors
+* **6. Electronic / Charge-related Descriptors**
 
 Limited in RDKit core but still important.
 
@@ -115,7 +123,7 @@ Meaning:
 
 Reactivity
 Electrostatic interactions
-7. 🧩 Surface / Polar Descriptors
+* **7. Surface / Polar Descriptors**
 
 Interface-related molecular properties.
 
@@ -128,7 +136,7 @@ Meaning:
 
 Binding affinity
 Solvent accessibility
-8. 🧱 Structural Complexity Descriptors
+* **8. Structural Complexity Descriptors**
 
 Describe overall molecular complexity.
 
@@ -143,7 +151,7 @@ Meaning:
 
 Drug-likeness
 Synthesis difficulty
-9. 🔄 Flexibility Descriptors
+* **9. Flexibility Descriptors**
 
 Describe molecular motion.
 
